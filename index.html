@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+    <head>
+        <title>Drag Game</title>
+        <link rel="stylesheet" type="text/css" media="screen" href="drag-game.css">
+        <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Oswald" rel="stylesheet">
+
+    </head>
+    <body>
+        <h1>Famous Cat Matching Game</h1>
+
+        <div id="stripe">
+                <button type="submit" onClick="refreshPage()" id="reset">Reset Game</button>
+                <span id="message"></span>
+            </div>
+
+        <h3>Drag the famous cat to the correct box!</h3>
+
+        <div class="container">
+            <h2>Pusheen</h2>
+            <section class="drop-zone">
+
+            </section>
+            <h2>Grumpy Cat</h2>
+            <section class="drop-zone2">
+
+            </section>
+            <h2>Maru</h2>
+            <section class="drop-zone3">
+            
+            </section>
+
+            <section class="drag-cat">
+
+                <ul class="cats">
+                    <li>
+                        <!-- img elements do not need a draggable attribute -->
+                        <img id="MaruCat" alt="Maru" src="maru.jpg">
+                    </li>
+
+                    <li>
+                        <img id="PusheenCat" alt="Pusheen" src="pusheen.jpg">
+                    </li>
+
+                    <li>
+                        <img id="Grumpy" alt="GrumpyCat" src="grumpy-cat-lrg.jpg">
+                    </li>
+
+                </ul>
+            </section>
+        </div>
+        <script type="text/javascript" src="drag-game.js"></script>
+    </body>
+
+</html>

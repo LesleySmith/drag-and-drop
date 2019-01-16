@@ -1,0 +1,131 @@
+body {
+    background: #D3CCE3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+ul li {
+    list-style-type: none;
+}
+
+img {
+    cursor: pointer;
+    width: 200px;
+}
+
+h1 {
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    color: #530AA0;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    color: #530AA0;
+}
+
+h3 {
+    font-family: 'Amatic SC', cursive;
+    color: #AE64FC;
+    text-align: center;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#stripe {
+    background: white;
+    height: 30px;
+    text-align: center;
+}
+
+#message {
+    display: inline-block;
+    width: 15%;
+    color: #530AA0;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: inherit;
+    letter-spacing: 1px;
+}
+
+/* Button Design */
+
+button {
+	border: none;
+	background: none;
+	text-transform: uppercase;
+    height: 100%;
+    font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	color: #530AA0;
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	outline: none;
+}
+
+button:hover {
+	color: white;
+	background-color: #530AA0;
+}
+
+/* Drop Zone 1 */
+
+.drop-zone {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    background: #878787;
+    color: white;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.drop-zone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Drop Zone 2 */
+
+.drop-zone2 {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    background: #878787;
+    color: white;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.drop-zone2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Drop Zone 3 */
+
+.drop-zone3 {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    background: #878787;
+    color: white;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.drop-zone3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
